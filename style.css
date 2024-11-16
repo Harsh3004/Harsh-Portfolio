@@ -40,7 +40,7 @@ header{
 }
 
 .logo-img{
-    width: 4rem;
+    width: 10rem;
 }
 
 .logo-txt{
@@ -491,6 +491,9 @@ footer{
     position: relative;
     background-color: #343d68;
     padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer .nav-links{
@@ -505,6 +508,14 @@ footer .nav-links div a{
 footer .nav-links div a:hover{
     font-weight: 300;
     color: red;
+}
+
+footer .contact-links{
+    display: flex;
+}
+
+footer .contact-links i{
+    width: 50px;
 }
 
 footer .faded-txt{
